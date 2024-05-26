@@ -18,7 +18,7 @@ class Config(object):
     # channels logs
     FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002041484396"))
-    STRING = os.environ.get("STRING", "Every One Can Use")
+    STRING = os.environ.get("STRING", "BQGq0eQAnRvw3copJFGVlgz-bMwAI3dgK4ak5E6WBdo5z7mFvUtwbKvzlnMH1gG7glM8GZFOXYj-LW8xBS1LNXLNIFLaQI7E_jqbKX0DFvL5xjb-hj4CLbLogQhpJ3nDtrTwoP38zOnfN65qT3zzmXI1QoDnmfcnp0DGstu-GpQSWz-1wKAcIPGiGpvkkhFJigNH-TMZFe1mAHEBRgXcDFhyQvzXpDn7MXCgmVDoCV0UPTTwMy8Iaeuq4sH7XD6047OELanLubFQVISCzNu43uqtieRwOb3HWkEGjvFQWOpXbxZ2YltRGQ7VjtizZH6IB6mhz3JQPawaF5MZKkOyKKlAZlkNaAAAAAFqIPcJAA")
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
 
